@@ -61,7 +61,6 @@ It allows users to vote (Cats vs Dogs), processes votes asynchronously, and disp
 - Role:
   - Persistent storage of results
 
-⚠️ Note: Uses `emptyDir` (non-persistent, dev-only)
 
 ---
 
@@ -103,12 +102,5 @@ It allows users to vote (Cats vs Dogs), processes votes asynchronously, and disp
 - NodePort for frontend exposure
 - ClusterIP for internal communication
 
----
-
-## 🚀 GitOps Deployment (Argo CD)
-
-This project uses **Argo CD** for continuous delivery.
-
-### Flow:
 
 
